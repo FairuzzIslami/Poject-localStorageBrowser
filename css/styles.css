@@ -8,41 +8,44 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #f0f4f8;
 }
 .container{
     display: flex;
     justify-content: center;
-    width: 200%;
+    width: 100%;
 }
 form{
     width: 100%;
     max-width: 300px;
-    background-color: #ccc;
+    background-color: #ffffff;
     display: flex;
     padding: 80px;
     border-radius: 8px;
     margin: 12PX;
     flex-direction: column;
+    box-shadow: 4px 10px 12px rgba(0, 0, 0, 0.1);
 }
 h1{
     color: #333;
     text-align: center;
+    margin: 14px;
 }
 input{
-    margin: 4px 0;
+    margin: 6px 0;
     outline: none;
     padding: 12px;
     border-radius: 4px;
-    border: 1px solid #333;
+    border: 1px solid #ccc;
 }
 button{
     outline: none;
     border: none;
-    background-color: rgb(16, 101, 175);
+    background-color:#007bff;
     color: #fff;
     border-radius: 8px;
     padding: 8px;
-    margin: 2px;
+    margin: 8px 0;
 }
 button:hover{
     background-color:#0056b3;
