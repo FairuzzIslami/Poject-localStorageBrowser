@@ -1,6 +1,3 @@
-
-
-
 function btnLogin(){
     //variabel
     let container = document.getElementsByClassName('container')[0]
@@ -9,7 +6,6 @@ function btnLogin(){
     let massage = document.createElement('h1')
 
     // ilangin form login
-    console.log('hello world')
     container.innerHTML = ''
     
     // admind dan bukan admind
@@ -27,6 +23,8 @@ function btnLogin(){
     btnlogOut.onclick = btnLogout
     container.appendChild(btnlogOut)
 }
+
+
 function btnLogout(){
     let container = document.getElementsByClassName('container')[0]
     container.innerHTML = `
